@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>  <link rel="stylesheet" href="./CSS/main.css"  />
+    <script  src="./js/main.js"></script>  
+</head>
+<body class="fixed-nav sticky-footer bg-main " id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-white fixed-top" id="mainNav">
+        <span class="toggle-icon ">
+            <a class="nav-link text-center" id="sidenavToggler">
+
+                <img src=".//Images/Sidebar 512_iq 32.svg" />
+
+            </a>
+        </span>
+        <a class="navbar-brand ml-5   " href="">EFI</a>
+        <button class="navbar-toggler navbar-toggler-right bg-dark" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Hou">
+                    <a class="nav-link active" href="index.html">
+                        <i class="fa fa-home"></i>
+                        <span class="nav-link-text">Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Product">
+                    <a class="nav-link" href="charts.html">
+                        <i class="fa fa-fw fa-area-chart"></i>
+                        <span class="nav-link-text">Product</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Service">
+                    <a class="nav-link" href="tables.html">
+                        <i class="fa fa-fw fa-table"></i>
+                        <span class="nav-link-text">Service</span>
+                    </a>
+                </li>
+
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Others">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-fw fa-link"></i>
+                        <span class="nav-link-text">Others</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav ml-auto fa-users">
+                <li class="nav-item  ">
+                    <a class="nav-link alert-Circle mr-lg-2" href="#">
+                        <i class="fa fa-bell" aria-hidden="true"></i>
+                        <span class="d-lg-none">
+                            Messages
+                            <span class="badge badge-pill badge-primary">12 New</span>
+                        </span>
+
+                    </a>
+
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link alert-Circle" href="#">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <span class="d-lg-none">
+                            Profile
+
+                        </span>
+
+                    </a>
+
+                </li>
+
+                <!--<li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
+                        <i class="fa fa-fw fa-sign-out"></i>Logout
+                    </a>
+                </li>-->
+            </ul>
+        </div>
+    </nav>
+    <div class="content-wrapper">
+
+
+
+
+        <div class="container-fluid">
+            <div class="col-lg-12 card pt-3 pb-3">
+                <div class="row devices">
+                    <div class="col-lg-2  card p-0">
+                        <div class="col-sm-12 p-0 ml-2">
+                            <img src="./Images/company_logo.svg " style="width:50px;" class="img-fluid float-left" />
+                            <div class="float-left">
+                                <h6 class="mb-0">Splash Designs</h6>
+                                <small>Welcome Andy</small>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-2 col-sm-6 card float-left   border-0 bg-white">
+                        <h3> 5</h3>
+                        <span>Total devices</span>
+                    </div>
+                    <div class="col-lg-2 col-sm-6  card  float-left    border-0 bg-white">
+                        <h3> 1</h3>
+                        <span>Error devices</span>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 card float-left  ">
+                        <h3> 1</h3>
+                        <span>Offline devices</span>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 card float-left  ">
+                        <h3> 64</h3>
+                        <span>Total jobs printed</span>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 card float-left  ">
+                        <h3> 7</h3>
+                        <span>Total users</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="container-fluid">
+            <center>
+                <div class="row section2  col-sm-12 justify-content-md-center p-0">
+                    <div class="col-lg-1 col-md-4 col-sm-5">
+
+                        <img src="./Images/manage.svg" />
+                        <p class="small">Manage</p>
+                    </div>
+                    <div class="col-lg-1 col-md-4 col-sm-5 mobile-left">
+                        <img src="./Images/history.svg" />
+                        <p class="small">History</p>
+                    </div>
+                    <div class="col-lg-1 col-md-4 col-sm-5">
+                        <img src="./Images/colorguard.svg" />
+                        <p class="small">ColorGuard</p>
+                    </div>
+                    <div class="col-lg-1 col-md-3 col-sm-5 mobile-left">
+                        <img src="./Images/inkorderding.svg" />
+                        <p class="small">IQ Ink Ordering</p>
+                    </div>
+                    <div class="col-lg-1 col-md-3 col-sm-5">
+                        <img src="./Images/smartalerts.svg" class="img-fluid" />
+                        <p class="small"> IQ Smart Alerts</p>
+                    </div>
+                </div>
+            </center>
+        </div>
+
+        <div class="container-fluid">
+            <div class="col-lg-12 p-0">
+                <div class="row">
+
+
+
+                    <div class="col-lg-6 mt-3">
+                        <div class="card  Prodect-1">
+                            <div class="card-header  bg-white">
+                                <div class="row">
+
+                                    <div class="col-3 p-0 m-0">
+                                        <img src="./Images/press_reggiani.png" class="img-fluid" />
+
+                                    </div>
+                                    <div class="col-5">
+                                        <h5 class="p-0 m-0">HULKERBUSTER </h5>
+                                        <small class="text-gray">EFI Reggiani Flex</small>
+                                    </div>
+                                    <div class="col-4 ">
+                                        <p class="float-right">Printing</p>
+                                    </div>
+
+                                </div>
+                                <div class="row progress">
+                                    <div class="progress-bar bg-light-gray" role="progressbar" style="width: 30%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-light-red" role="progressbar" style="width: 5%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-light-blue" role="progressbar" style="width: 55%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+
+                                <div class="row">
+
+
+                                    <div class="col-sm-6 mb-2">
+                                        <div class="card border-0 shadow-sm    bg-white rounded">
+                                            <div class="card-body p-2">
+                                                <div class="col-3 p-3 float-left rounded-circle text-center jobsPrinted-bg ">
+                                                    <img src="./Images/jobsPrinted.svg" style="width:10px" />
+                                                </div>
+                                                <div class="col-9 float-right">
+                                                    <h5>9</h5>
+                                                    <p>Jobs Printed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 mb-2">
+                                        <div class="card shadow-sm border-0 bg-white rounded">
+                                            <div class="card-body p-2">
+                                                <div class="col-3 p-3 float-left rounded-circle text-center lengthPrinted-bg ">
+                                                    <i class="fa fa-file-alt" style="color:#7cc31d"></i>
+                                                </div>
+                                                <div class="col-9 float-right">
+                                                    <h5>9</h5>
+                                                    <p>Length Printed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 mt-lg-2">
+                                        <div class="card shadow-sm border-0 bg-white rounded">
+                                            <div class="card-body p-2">
+                                                <div class="col-3 p-3 float-left rounded-circle text-center  ariaPrinted-bg ">
+                                                    <i class="fa fa-window-maximize" aria-hidden="true" style="color:#68388c"></i>
+                                                </div>
+                                                <div class="col-9 float-right">
+                                                    <h5>9</h5>
+                                                    <p>Aria Printed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mt-lg-2">
+                                        <div class="card shadow-sm border-0 bg-white rounded">
+                                            <div class="card-body p-2">
+                                                <div class="col-3 p-3 float-left rounded-circle text-center jobsQue-bg ">
+                                                    <i class="fa fa-file" aria-hidden="true" style="color:#808080"></i>
+                                                </div>
+                                                <div class="col-9 float-right">
+                                                    <h5>9</h5>
+                                                    <p>Jobs Printed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-3">
+                        <div class="card  Prodect-2">
+                            <div class="card-header  bg-white">
+                                <div class="row">
+
+                                    <div class="col-3 p-0 m-0">
+                                        <img src="./Images/press_image-Thumb.png" class="img-fluid" style="height: 55px;" />
+
+
+                                    </div>
+                                    <div class="col-5">
+                                        <h5 class="p-0 m-0">EXCALIBUR</h5>
+                                        <small class="text-gray">EFI VUTEk 3r+</small>
+                                    </div>
+                                    <div class="col-4 ">
+                                        <p class="float-right">IDLE</p>
+                                    </div>
+
+                                </div>
+                                <div class="row progress">
+                                    <div class="progress-bar bg-light-gray" role="progressbar" style="width: 30%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-light-red" role="progressbar" style="width: 5%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-light-blue" role="progressbar" style="width: 55%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+
+                                <div class="row">
+
+
+                                    <div class="col-sm-6">
+                                        <div class="card shadow-sm border-0 bg-white rounded">
+                                            <div class="card-body p-2">
+                                                <div class="col-3 p-3 float-left rounded-circle text-center jobsPrinted-bg ">
+                                                    <img src="./Images/jobsPrinted.svg" style="width:10px" />
+                                                </div>
+                                                <div class="col-9 float-right">
+                                                    <h5>9</h5>
+                                                    <p>Jobs Printed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <div class="card shadow-sm border-0 bg-white rounded">
+                                            <div class="card-body p-2">
+                                                <div class="col-3 p-3 float-left rounded-circle text-center lengthPrinted-bg ">
+                                                    <i class="fa fa-file-alt" style="color:#7cc31d"></i>
+                                                </div>
+                                                <div class="col-9 float-right">
+                                                    <h5>9</h5>
+                                                    <p>Length Printed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 mt-lg-2">
+                                        <div class="card shadow-sm border-0 bg-white rounded">
+                                            <div class="card-body p-2">
+                                                <div class="col-3 p-3 float-left rounded-circle text-center  ariaPrinted-bg ">
+                                                    <i class="fa fa-window-maximize" aria-hidden="true" style="color:#68388c"></i>
+                                                </div>
+                                                <div class="col-9 float-right">
+                                                    <h5>9</h5>
+                                                    <p>Aria Printed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mt-lg-2">
+                                        <div class="card shadow-sm border-0 bg-white rounded">
+                                            <div class="card-body p-2">
+                                                <div class="col-3 p-3 float-left rounded-circle text-center jobsQue-bg ">
+                                                    <i class="fa fa-file" aria-hidden="true" style="color:#808080"></i>
+                                                </div>
+                                                <div class="col-9 float-right">
+                                                    <h5>9</h5>
+                                                    <p>Jobs Printed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6 mt-3">
+                        <div class="card  Prodect-3">
+                            <div class="card-header  bg-white">
+                                <div class="row">
+
+                                    <div class="col-3 p-0 m-0">
+                                        <img src="./Images/press_reggiani.png" class="img-fluid" />
+
+                                    </div>
+                                    <div class="col-5">
+                                        <h5 class="p-0 m-0">EXTREMIS </h5>
+                                        <small class="text-gray">EFI vu· Ek HS"25</small>
+                                    </div>
+                                    <div class="col-4 ">
+                                        <p class="float-right">ERROR</p>
+                                    </div>
+
+                                </div>
+                                <div class="row progress">
+                                    <div class="progress-bar bg-light-gray" role="progressbar" style="width: 30%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-light-red" role="progressbar" style="width: 25%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-light-blue" role="progressbar" style="width: 35%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+
+                                <div class="row">
+
+
+                                    <div class="col-sm-6">
+                                        <div class="card shadow-sm border-0 bg-white rounded">
+                                            <div class="card-body p-2">
+                                                <div class="col-3 p-3 float-left rounded-circle text-center jobsPrinted-bg ">
+                                                    <img src="./Images/jobsPrinted.svg" style="width:10px" />
+                                                </div>
+                                                <div class="col-9 float-right">
+                                                    <h5>9</h5>
+                                                    <p>Jobs Printed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <div class="card shadow-sm border-0 bg-white rounded">
+                                            <div class="card-body p-2">
+                                                <div class="col-3 p-3 float-left rounded-circle text-center lengthPrinted-bg ">
+                                                    <i class="fa fa-file-alt" style="color:#7cc31d"></i>
+                                                </div>
+                                                <div class="col-9 float-right">
+                                                    <h5>9</h5>
+                                                    <p>Length Printed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 mt-lg-2">
+                                        <div class="card shadow-sm border-0 bg-white rounded">
+                                            <div class="card-body p-2">
+                                                <div class="col-3 p-3 float-left rounded-circle text-center  ariaPrinted-bg ">
+                                                    <i class="fa fa-window-maximize" aria-hidden="true" style="color:#68388c"></i>
+                                                </div>
+                                                <div class="col-9 float-right">
+                                                    <h5>9</h5>
+                                                    <p>Aria Printed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mt-lg-2">
+                                        <div class="card shadow-sm border-0 bg-white rounded">
+                                            <div class="card-body p-2">
+                                                <div class="col-3 p-3 float-left rounded-circle text-center jobsQue-bg ">
+                                                    <i class="fa fa-file" aria-hidden="true" style="color:#808080"></i>
+                                                </div>
+                                                <div class="col-9 float-right">
+                                                    <h5>9</h5>
+                                                    <p>Jobs Printed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-3">
+                        <div class="card  Prodect-4">
+                            <div class="card-header  bg-white">
+                                <div class="row">
+
+                                    <div class="col-3 p-0 m-0">
+                                        <img src="./Images/press_image-Thumb.png" class="img-fluid" style="height: 55px;" />
+
+
+                                    </div>
+                                    <div class="col-5">
+                                        <h5 class="p-0 m-0">SHOTGUN</h5>
+                                        <small class="text-gray">EFI Cretaprint M4 </small>
+                                    </div>
+                                    <div class="col-4 ">
+                                        <p class="float-right">PRINTING</p>
+                                    </div>
+
+                                </div>
+                                <div class="row progress">
+                                    <div class="progress-bar bg-light-gray" role="progressbar" style="width: 20%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-light-red" role="progressbar" style="width: 15%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-light-blue" role="progressbar" style="width: 45%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+
+                                <div class="row">
+
+
+                                    <div class="col-sm-6">
+                                        <div class="card shadow-sm border-0 bg-white rounded">
+                                            <div class="card-body p-2">
+                                                <div class="col-3 p-3 float-left rounded-circle text-center jobsPrinted-bg ">
+                                                    <img src="./Images/jobsPrinted.svg" style="width:10px" />
+                                                </div>
+                                                <div class="col-9 float-right">
+                                                    <h5>9</h5>
+                                                    <p>Jobs Printed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <div class="card shadow-sm border-0 bg-white rounded">
+                                            <div class="card-body p-2">
+                                                <div class="col-3 p-3 float-left rounded-circle text-center lengthPrinted-bg ">
+                                                    <i class="fa fa-file-alt" style="color:#7cc31d"></i>
+                                                </div>
+                                                <div class="col-9 float-right">
+                                                    <h5>9</h5>
+                                                    <p>Length Printed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 mt-lg-2">
+                                        <div class="card shadow-sm border-0 bg-white rounded">
+                                            <div class="card-body p-2">
+                                                <div class="col-3 p-3 float-left rounded-circle text-center  ariaPrinted-bg ">
+                                                    <i class="fa fa-window-maximize" aria-hidden="true" style="color:#68388c"></i>
+                                                </div>
+                                                <div class="col-9 float-right">
+                                                    <h5>9</h5>
+                                                    <p>Aria Printed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 mt-lg-2">
+                                        <div class="card shadow-sm border-0 bg-white rounded">
+                                            <div class="card-body p-2">
+                                                <div class="col-3 p-3 float-left rounded-circle text-center jobsQue-bg ">
+                                                    <i class="fa fa-file" aria-hidden="true" style="color:#808080"></i>
+                                                </div>
+                                                <div class="col-9 float-right">
+                                                    <h5>9</h5>
+                                                    <p>Jobs Printed</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <!-- /.container-fluid-->
+        <!-- /.content-wrapper-->
+
+
+    </div>
+</body>
+</html>
