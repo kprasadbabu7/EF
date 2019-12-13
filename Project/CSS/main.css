@@ -363,7 +363,7 @@ padding: 0px;
         }
  
         body {
-            background-image: url('http://localhost:60105/Images/Bg Piece 1.png'), url('http://localhost:60105/Images/Bg Piece 2.png');
+            background-image: url('../Images/Bg Piece 1.png'), url('../Images/Bg Piece 2.png');
             background-position: left top, right top;
             background-repeat: no-repeat, no-repeat;
             padding: 15px;
